@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.logic {
+    font-size: medium;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.asterisk,label {
+    font-size: medium;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+select, input[type="text"] {
+    font-size: medium;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    /*text-decoration: underline overline dotted aqua;*/
+    text-shadow: 2px 2px 4px dodgerblue;
+}
+
+h3 {
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+
+h4 {
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    padding: 0px;
+    text-decoration: underline dotted aqua;
+    /*text-shadow: 2px 2px 4px dodgerblue;*/
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 10px -40px 30px;
+}
+
+table {
+    margin: auto;
+    padding: 15px;
+}
+
+th {
+    border-top: 1px dashed #aaa;
+    padding: 5px;
+}
+
+.orangeShadow {
+    text-shadow: 2px 2px 4px darkorange;
+}
+
+.minus {
+
+    font-weight: bolder;
+    text-shadow: 6px 6px 10px darkred;
+}
+
+.minusText {
+    color: darkred;
+    font-weight: bolder;
+}
+
+.plus {
+    font-weight: bolder;
+    text-shadow: 6px 6px 10px darkgreen;
+}
+
+.plusText {
+    color: darkgreen;
+    font-weight: bolder;
+
+}
+
+.blueShadow {
+    text-shadow: 2px 2px 4px dodgerblue;
+    text-decoration: underline overline dotted aqua;
+}
+
+.blue {
+    text-shadow: 2px 2px 4px dodgerblue;
+    /*text-decoration: underline overline aqua;*/
+}
+
+#display {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    float: none;
+    border-radius: 10px;
+    border: 3px solid #777;
+    padding: 10px 40px 25px;
+    /*background-color: #b6e6ff;*/
+    background-color: #dce6f7;
+}
+
+input[type="submit"] {
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    width: 25%;
+    background-color: #96b9f5;
+    color: #000;
+    border: 1px solid #777;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #dce6f7;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#user {
+    padding: 50px;
+    border: 3px dotted grey;
+    font-size: 20px;
+    background-color: #dce6f7;
+}
+
+#logout {
+    float: right;
+    padding: 5px;
+    border: dotted 2px gray;
+}
+
+a {
+    text-decoration: none;
+    color: #6495ed;
+}
+
+i {
+    color: #6495ed;
+}
